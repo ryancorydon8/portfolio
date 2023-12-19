@@ -1,0 +1,39 @@
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    background-image: url('background.jpg'); /* Adjust the path based on your directory structure */
+    background-size: cover; /* Ensures the background covers the entire viewport */
+    background-position: center; /* Centers the background image */
+}
+
+
+.main-header {
+    /* Adjust the background color as needed */
+    padding: 15px;
+    color: white; /* Adjust the text color as needed */
+    display: flex;
+    justify-content: flex-end; /* Align items to the flex-end (right) */
+    align-items: center; /* Center items vertically */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    margin-right: 15; /* Reset margin-right to 0 */
+    color: black;
+}
+
+nav a {
+    color: black; /* Adjust the text color as needed */
+    text-decoration: none;
+    margin: 0 50px; /* Adjust the margin as needed */
+    font-size: 21px;
+}
+
+/* Optionally, style your navigation links on hover */
+nav a:hover {
+    text-decoration: underline;
+}
