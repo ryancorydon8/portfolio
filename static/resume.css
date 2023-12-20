@@ -1,0 +1,73 @@
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    background-image: url('background.jpg'); /* Adjust the path based on your directory structure */
+    background-size: cover; /* Ensures the background covers the entire viewport */
+    background-position: center; /* Centers the background image */
+}
+
+
+.main-header {
+    /* Adjust the background color as needed */
+    padding: 15px;
+    color: white; /* Adjust the text color as needed */
+    display: flex;
+    justify-content: flex-end; /* Align items to the flex-end (right) */
+    align-items: center; /* Center items vertically */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    margin-right: 15; /* Reset margin-right to 0 */
+    color: black;
+}
+
+nav a {
+    color: black; /* Adjust the text color as needed */
+    text-decoration: none;
+    margin: 0 20px; /* Adjust the margin as needed */
+    font-size: 21px;
+}
+
+/* Optionally, style your navigation links on hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+    .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 120px;
+        }
+
+        .image-container {
+            flex-grow: 1; /* Allow the image container to grow and take up available space */
+            margin-right: 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+
+        .image-container img {
+            transform: rotate(-90deg);
+            max-width: 45%;
+            max-height: 45%; /* Optional: Set max height if needed */
+            height: auto;
+        }
+
+         .download-button {
+            padding: 5px 20px;
+            background-color: #008080;
+            color: white; /* White text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Optional: Add rounded corners */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 600px;
+            }

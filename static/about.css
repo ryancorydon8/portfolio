@@ -1,39 +1,58 @@
 body {
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
-    background-image: url('background.jpg'); /* Adjust the path based on your directory structure */
-    background-size: cover; /* Ensures the background covers the entire viewport */
-    background-position: center; /* Centers the background image */
+    margin: 0;
+    padding: 0;
+   /* background-image: url('background.jpg');  */
+    background-size: cover;
+    background-position: center;
 }
 
-
 .main-header {
-    /* Adjust the background color as needed */
-    padding: 15px;
-    color: white; /* Adjust the text color as needed */
+    background-color: #333; /* Adjust the background color as needed */
+    padding: 7px;
+    color: white;
     display: flex;
-    justify-content: flex-end; /* Align items to the flex-end (right) */
-    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Adjust alignment */
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
 }
 
+.brand {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
 nav {
     display: flex;
-    margin-right: 15; /* Reset margin-right to 0 */
-    color: black;
 }
 
 nav a {
-    color: black; /* Adjust the text color as needed */
+    color: white;
     text-decoration: none;
-    margin: 0 50px; /* Adjust the margin as needed */
-    font-size: 21px;
+    margin: 0 20px;
+    font-size: 18px; /* Adjust the font size as needed */
 }
 
-/* Optionally, style your navigation links on hover */
 nav a:hover {
     text-decoration: underline;
+}
+
+#about-me {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    margin: 50px auto; /* Adjust the margin as needed */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+#about-me h2 {
+    color: #333;
+}
+
+#about-me p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
 }
