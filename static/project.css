@@ -1,0 +1,63 @@
+/* project.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Update the background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.main-header {
+    background-color: #000000;
+    padding: 7px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#projects {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #007BFF; /* Adjust the project title color as needed */
+}
+
+.project p {
+    line-height: 1.6;
+    color: #555;
+}

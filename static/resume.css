@@ -8,8 +8,8 @@ body {
 
 
 .main-header {
-    /* Adjust the background color as needed */
-    padding: 15px;
+    background-color: #000000;
+    padding: 7px;
     color: white; /* Adjust the text color as needed */
     display: flex;
     justify-content: flex-end; /* Align items to the flex-end (right) */
@@ -22,18 +22,15 @@ body {
 
 nav {
     display: flex;
-    margin-right: 15; /* Reset margin-right to 0 */
-    color: black;
 }
 
 nav a {
-    color: black; /* Adjust the text color as needed */
+    color: white;
     text-decoration: none;
-    margin: 0 20px; /* Adjust the margin as needed */
-    font-size: 21px;
+    margin: 0 20px;
+    font-size: 18px; /* Adjust the font size as needed */
 }
 
-/* Optionally, style your navigation links on hover */
 nav a:hover {
     text-decoration: underline;
 }

@@ -7,34 +7,31 @@ body {
 }
 
 .main-header {
-    /* Adjust the background color as needed */
-    padding: 15px;
-    color: white; /* Adjust the text color as needed */
+    background-color: #000000; /* Adjust the background color as needed */
+    padding: 7px;
+    color: white;
     display: flex;
-    justify-content: flex-end; /* Align items to the flex-end (right) */
-    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Adjust alignment */
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
 }
-
 nav {
     display: flex;
-    margin-right: 15; /* Reset margin-right to 0 */
-    color: black;
 }
 
 nav a {
-    color: black; /* Adjust the text color as needed */
+    color: white;
     text-decoration: none;
-    margin: 0 50px; /* Adjust the margin as needed */
-    font-size: 21px;
+    margin: 0 20px;
+    font-size: 18px; /* Adjust the font size as needed */
 }
 
-/* Optionally, style your navigation links on hover */
 nav a:hover {
     text-decoration: underline;
+
 }
 
 .image-container {
@@ -57,11 +54,12 @@ nav a:hover {
     padding: 80px;
     box-sizing: border-box;
     white-space: pre-line;
+    color: white;
 }
 
 .content-section h1, p {
     margin-bottom: 20px;
-    color: black;
+    color: white;
 }
 
 .content-section p {
@@ -71,21 +69,24 @@ nav a:hover {
 
 
 .projects-button {
+    position: relative; /* Ensure relative positioning */
     margin-left: 250px;
-    margin-top: -80px; /* Adjust the margin as needed */
+    margin-top: -75px; /* Adjust the margin as needed */
+    z-index: 1; /* Set a higher z-index value */
 }
 
-      .projects-button a {
-            display: inline-block;
-            padding: 5px 30px; /* Adjust padding as needed */
-            background-color: #333;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px; /* Adjust font size as needed */
-            transition: background-color 0.3s ease; /* Smooth transition on hover */
-        }
+.projects-button a {
+    display: inline-block;
+    padding: 5px 20px; /* Adjust padding as needed */
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    z-index: 1; /* Set a higher z-index value */
+}
 
-        .projects-button a:hover {
-            background-color: #555;
-        }
+.projects-button a:hover {
+    background-color: #555;
+}

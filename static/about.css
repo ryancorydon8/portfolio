@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-   /* background-image: url('background.jpg');  */
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .main-header {
-    background-color: #333; /* Adjust the background color as needed */
+    background-color: #000000; /* Adjust the background color as needed */
     padding: 7px;
     color: white;
     display: flex;
